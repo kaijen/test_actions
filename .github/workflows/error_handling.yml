@@ -12,7 +12,6 @@ jobs:
       steps:
         - name: Run error
           continue-on-error: true
-          run: |
-            ./.github/scripts/error.sh
-          shell: sh
+          run: ./.github/scripts/error.sh
+          shell: bash
 
