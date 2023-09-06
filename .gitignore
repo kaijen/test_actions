@@ -1,0 +1,7 @@
+zone-files/
+zone-backups/
+templates/zones/
+.venv
+.env
+*.env
+*.bak
