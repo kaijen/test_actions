@@ -13,6 +13,6 @@ jobs:
         - name: Run error
           continue-on-error: true
           run: |
-            ./scripts/error.sh
+            ./.github/scripts/error.sh
           shell: sh
 
